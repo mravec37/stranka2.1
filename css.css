@@ -1,0 +1,100 @@
+.col {
+    overflow-wrap: break-word;
+}
+
+.row {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.row2 {
+    margin-right:7%;
+}
+
+a h1 {
+   font-size:1.5vw;
+}
+
+.row1 img {
+    max-width: 100%;
+    min-width: 25%;
+}
+
+.row2 img {
+    max-width: 50%;
+    min-width: 20%;
+    max-height: 150%;
+    min-height:100%;
+    /*min-height: 300px;
+    max-height: 500px;*/
+}
+
+.row2 a h1 {
+    font-size:0.8vw;
+}
+
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:grey;
+}
+
+.hlavny {
+    margin-top:3%;
+
+}
+
+h4 {
+    padding-top: 5px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.filler {
+    height:100px;
+}
+
+.navbar-brand {
+    padding-left:17%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+
+.bocny-panel {
+    height:600px;
+    width: 17%;
+    margin-left: 3%;
+    margin-top: 3%;
+    border:1px solid darkgrey;
+    overflow: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .bocny-panel {
+        display: none;
+    }
+    .row2 a h1 {
+        font-size:12px;
+    }
+
+    .druhy {
+        margin-top: 50px;
+    }
+
+}
